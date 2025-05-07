@@ -15,7 +15,7 @@ from fastapi import(
 import pytesseract
 from fastapi.responses import HTMLResponse, FileResponse
 from fastapi.templating import Jinja2Templates
-from pydantic import BaseSettings
+from pydantic-settings import BaseSettings
 from PIL import Image
 
 class Settings(BaseSettings):
